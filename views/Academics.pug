@@ -1,0 +1,34 @@
+extends base.pug
+
+
+
+block style
+   style
+        include ../static/base.css
+        include ../static\Academics.css
+
+
+  
+
+block content
+    <div class="container">
+        <div class="buttons">
+            <div class="row1">
+
+                <div class="s"> 
+                    <a href="/P-PA">   <button class="a" > <i class="fa-regular fa-sun"></i><br> Pre</button> </a>
+                </div>
+                <div class="s">   <button class="a" style="background-color:#f8ec33">
+                    <i class="fa-solid fa-pen"></i> <br>  Middle Section <br></button> </div>
+                </div>
+                <div class="row">
+                    <div class="s"> <button class="a" style="    background-color: #ed2a2e;"><i class="fa-regular fa-star"></i> Board Classes</button>
+                    </div>
+                    <div class="s"> <button class="a"> <i class="fa-solid fa-tree"></i>Primary section</button> </div>
+                </div>
+            </div>
+
+            <img src="/static/Images\side-image academics.png" alt="">
+        </div>
+        <script src="static\Academics.js"></script>
+        

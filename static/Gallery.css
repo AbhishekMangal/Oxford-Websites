@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+}
+
+h1
+{
+    text-align: center;
+}
+
+ img{
+    margin: 10px
+}
+nav
+{
+    background: center/cover  url("/static/Images/Festival Celebration/Holi celebration(3).jpg") no-repeat ;
+    height: 300px;
+    width: auto;
+    
+    margin-bottom: 50px;
+}
+
+nav ul
+{
+    display: flex;
+justify-content: start;
+
+
+
+width: 96%;
+}
+
+
+.links
+{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px auto 0px;
+
+
+}
+h1
+{
+    text-align: center;
+margin: 20px;
+font-family: 'Caveat';
+font-size: 2.2rem;
+}
+
+
+.logo{
+    border-radius: 6px;
+}
+.logo img
+{
+    height: 81px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto 0px auto 0px;
+
+border-radius: 30px;
+opacity: 0.7;
+}
+.links   li
+{  
+    list-style: none;
+margin: 30px 39px;
+font-size: 26px;
+color: #ffffff;
+width: 142px;
+text-align: center;
+align-items: center;
+height: 64px;
+display: flex;
+justify-content: center;
+text-decoration: none;
+}
+section
+{
+margin: 25px 0;
+} 
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: #c8cddf;
+    color: #087dfc;
+text-decoration: none;
+font-size: 30px;
+border-radius: 12px;
+padding: 5px 9px;
+
+}
+.logo
+{
+    display: flex;
+    justify-content: start;
+}
+.prizeDis img
+{
+    overflow: hidden;
+    height: 280px;
+    margin: 25px 45px;
+    border-radius: 84px;
+   
+}
+
+.prizeDis
+{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin: 0px 2px;
+
+}
+.Heading
+{
+    color: #ff2626;
+font-size: 4.8rem;
+font-family: 'Caveat';
+}
+
+
+h2
+{
+    text-align: center;
+    margin: 20px;
+}
+.footer
+{
+    background-color: black;
+    height: 300px;
+    display: flex;
+}
+.footer ul
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 54px 106px 0;
+    
+    
+
+}
+.footer ul h3
+{
+    color: white;
+    font-size: 1.7rem;
+}
+.footer ul li 
+{
+    color: white;
+list-style: none;
+font-size: 1.2rem;
+
+margin: 4px 0px;
+}
+.border
+{
+padding: 0px 100px;
+border: 1px solid white;
+border-width: 0px 1px 0px 0px;
+}
+.img{
+display: flex;
+flex-direction: column;
+margin: 52px 0px;
+}
+.footer .img img{
+height: 50px;
+margin: 12px 0;
+}
+.own
+{
+margin: 97px 78px;
+font-size: 1.3rem;
+}    

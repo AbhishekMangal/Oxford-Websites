@@ -1,0 +1,103 @@
+*
+{
+    margin: 0px;
+}
+
+h1 
+{
+    text-align: center;
+    margin: 20px;
+}
+
+.logo{
+    border-radius: 6px;
+}
+.logo img
+{
+    height: 81px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+opacity: 0.7;
+margin: 8px 0px;
+}
+
+.button  img {
+    outline: 0;
+   
+    height: 504px;
+
+
+
+}
+
+h1 {
+    color: white
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center/cover url("/static/Images/Academics/pexels-codioful-(formerly-gradienta)-7130555.jpg");
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 158px 223px 69px 103px;
+    width: 430px;
+    
+    height: 367px;
+
+}
+
+button {
+    width: 127px;
+    height: 123px;
+    border-radius: 102%;
+    margin: 24px;
+
+
+}
+
+i {
+    font-size: 36px;
+    margin: 20px 13px;
+}
+
+button {
+    outline: 0;
+    background-color: skyblue;
+    border: 0;
+    padding: 0px 25px;
+    font-weight: bold;
+}
+
+button:hover {
+    height: 171px;
+    width: 170px;
+    font-size: 1.3rem;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+.row1 {
+    display: flex;
+}
+.s{
+    
+width: 215px;
+display: flex;
+height: 185px;
+justify-content: center;
+align-items: center;
+}

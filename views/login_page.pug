@@ -1,0 +1,45 @@
+extends base.pug
+
+block style
+        style
+            include ../static/base.css
+            include ../static/style.css
+
+    
+
+
+
+block content
+    <div class="container">
+
+        <div class="right">
+            <div class="logo logo2">
+                <img src="/static/images.jpg" alt="">
+            </div>
+            <div class="main">
+                           <h2> Contact Form </h2>
+            <form action="/login_page" id="contact" method ="post" >
+
+            <input type="text"  name="username" placeholder="Username" class="text"><br>
+
+            <input type="password" name="password" placeholder=" password" class="text"><br>
+            <input type="number" name="number" placeholder=" number" class="text"><br>
+            <input type="email" name="email" placeholder=" email" class="text"><br>
+            <input type="textarea" name="query" placeholder=" query" class="text"><br>
+
+
+
+            
+           
+            <div class="butn">
+            <button class= "btn">Submit</button>
+        </div>
+        </form>
+            <div class="image">
+                <img src='/static/images.png' height="50px" alt="">
+                <img src='/static/images (1).png' height="50px" alt="">
+            </div>
+        </div>
+ 
+        </div>
+    </div>
